@@ -40,6 +40,8 @@ pst = input("Pak Studies:\t\t")
 
 isl = input("Islamiat:\t\t")
 
+total = float(snd) + float(urd) + float(eng) + float(mth) + float(bio) + float(phy) + float(chm) + float(pst) + float(isl)
+ov_p = round(total*100/75, 2)
 print('''
 --------------------------------------------------------------------------------
 ----------------------------------MARK SHEET------------------------------------ 
@@ -55,5 +57,11 @@ Physics					'''+phy+'''	'''+p75(phy)+'''		'''+g(p75(phy))+'''
 Chemistry				'''+chm+'''	'''+p75(chm)+'''		'''+g(p75(chm))+'''
 Pak Studies				'''+pst+'''	'''+p75(pst)+'''		'''+g(p75(pst))+'''
 Islamiat				'''+isl+'''	'''+p75(isl)+'''		'''+g(p75(isl))+'''
-''')
 
+--------------------------------------------------------------------------------
+Total Obtained Marks = 	'''+ str(total) +''' out of 675	
+
+Overall Percentage =	'''+ str(ov_p) +'''%
+
+Overall Grade =		'''+ str(g(ov_p)) +'''
+''')
