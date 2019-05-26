@@ -1,22 +1,22 @@
-## Write a Python program that accepts an integer (n) and computes the value of (n + nn + nnn)
+## Write a Python program that accepts an integer (n) and computes the value of (n + n*n + n*n*n)
 
 print('''
-This program will take a number (n) and give back (n + nn + nnn)
+This program will take a number (n) and give back (n + n*n + n*n*n)
 ''')
 
-n = input('Choose the value of n: ')
+n = int(input('Choose the value of n: '))
 
 #print (n)
-#print(n + n)
-#print(n + n + n)
+#print(n*n)
+#print(n*n*n)
 
-n1 = int(n)
+n1 = n
 #print(n1)
 
-n2 = int(n + n)
+n2 = n*n
 #print(n2)
 
-n3 = int(n + n + n)
+n3 = n*n*n
 #print(n3)
 
 print('''
