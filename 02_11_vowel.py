@@ -3,7 +3,7 @@
 print('''
 This program will tell you whether a specific alphabet is an alphabet or not.''')
 
-alph = input("Give me an alphabet:\t")
+alph = input("Give me an alphabet:\t").lower()
 
 if alph == "a":
 	print ("\n The alphabet A is a vowel.")
