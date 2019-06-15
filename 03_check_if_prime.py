@@ -26,4 +26,4 @@ else:
         if count == 0:
             print("This is a prime number")
         else:
-            print("This is not a prime number")
+            print("This is NOT a prime number")
